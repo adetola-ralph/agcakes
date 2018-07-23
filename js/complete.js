@@ -261,7 +261,7 @@ $(document).ready(function($){
 	
 
 // -----------------------------------------------------  GOOGLE MAP		
-	var myLatlng = new google.maps.LatLng(6.807998, 3.451231);
+	var myLatlng = new google.maps.LatLng(5.538792, 5.739423);
 	var myOptions = {
 	  center:myLatlng,
 	  zoom:15,
@@ -274,13 +274,13 @@ $(document).ready(function($){
 	var marker = new google.maps.Marker({
 	  position: myLatlng,
 	  map: map,
-	  title:"23 Cheruvie Street off Kosini, Warri"
+	  title:"Edjeba, Warri"
 	});
 	
 	var infowindow = new google.maps.InfoWindow({});
 	
 	google.maps.event.addListener(marker, 'click', function() {
-		infowindow.setContent("23 Cheruvie Street off Kosini, Warri"); //sets the content of your global infowindow to string "Tests: "
+		infowindow.setContent("Edjeba, Warri"); //sets the content of your global infowindow to string "Tests: "
 		infowindow.open(map,marker); //then opens the infowindow at the marker
 	});
 	marker.setMap(map);
