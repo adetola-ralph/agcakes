@@ -1,0 +1,144 @@
+/*
+* 	960 version - 1.0
+* 	Copyright 2012, ThemeMarket
+* 	09/29/2012
+*/
+	
+/* ---------------------------------------------------------------------- */
+/*  Custom  960 Grid System
+/* ---------------------------------------------------------------------- */
+	.container{
+		width:960px;
+		margin:0;
+		clear:both;
+		display:block;
+		position:relative;
+	}
+	.column {
+		width:720px;
+		position:relative;
+		margin-left:10px;
+		margin-right:10px;
+		margin-bottom:20px;
+		float:left;
+	}
+	 
+	.column-one-half,
+	.column-one-third,
+	.column-two-thirds,
+	.column-sidebar   {
+		float:left;
+		margin-left:10px;
+		margin-right:10px;
+		margin-bottom:20px;
+	}
+	 
+	.column-one-half        { width:350px; }
+	.column-one-third       { width:226px; }
+	.column-two-thirds      { width:472px; }
+	.column-sidebar			{ width:300px; }
+	
+	h1 { font-size: 50px; }
+	h2 { font-size: 37px; }
+	h3 { font-size: 30px; }
+	h4 { font-size: 24px; }
+	h5 { font-size: 18px; }
+	h6 { font-size: 14px; }
+ 
+/* ------------------------------------------- */
+/*  Responsive Grid :
+/*
+/*  1. Tablet
+/*  2. Mobile Portrait
+/*  3. Mobile Landscape
+/* ------------------------------------------- */
+
+@media only screen and (min-width: 100px) and (max-width: 1140px) {
+	.sidebar{
+		clear:both;
+		margin-left:0;
+		width:740px;
+		margin-top:20px;
+	}
+	.column-sidebar			{ width:350px; }
+}
+ 
+/*------------------------------------------------------------------*/ 
+/*	1) Note: Design for a width of 768 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container              { width:768px; margin:0 auto; }
+	.column                 { width:728px; }
+    .column-one-half        { width:354px; }
+    .column-one-third       { width:229px; }
+    .column-two-thirds      { width:478px; }
+	.sidebar{width:748px}
+	.column-sidebar       { width:354px; }
+}
+
+
+/*------------------------------------------------------------------*/ 
+/*	2) Note: Design for a width of 480 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container              { width:420px; margin:0 auto; }
+	.column       			{ width:400px; margin-left:0; margin-right:0;}
+    .column-one-half,
+    .column-one-third,
+    .column-two-thirds,
+    .column-sidebar 	{ width:400px; margin-left:0; margin-right:0; }
+	.sidebar{width:400px}
+	
+	h1 { font-size: 20px; }
+	h2 { font-size: 20px; }
+	h3 { font-size: 20px; }
+	h4 { font-size: 20px; }
+	h5 { font-size: 20px; }
+	h6 { font-size: 20px; }
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) Note: Design for a width of 320 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 479px){
+    .container              { width:300px; margin:0 auto; }
+	.column       			{ width:280px; margin-left:0; margin-right:0;}
+    .column-one-half,
+    .column-one-third,
+    .column-two-thirds,
+    .column-sidebar 	{ width:280px; margin-left:0; margin-right:0; }
+	.sidebar{width:280px}
+	
+	h1 { font-size: 18px; }
+	h2 { font-size: 18px; }
+	h3 { font-size: 18px; }
+	h4 { font-size: 18px; }
+	h5 { font-size: 18px; }
+	h6 { font-size: 18px; }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*  Custom Margins
+/* ---------------------------------------------------------------------- */
+	.m-a			{ margin:0 auto; }
+	.m-top-25		{ margin-top:25px; }
+	.m-bottom-25	{ margin-bottom:25px; }
+	.m-left-25		{ margin-left:25px; }
+	.m-right-25		{ margin-right:25px; }
+	.m-top-20		{ margin-top:20px; }
+	.m-bottom-20	{ margin-bottom:20px; }
+	.m-left-20		{ margin-left:20px; }
+	.m-right-15		{ margin-right:20px; }
+	.m-top-15		{ margin-top:15px; }
+	.m-bottom-15	{ margin-bottom:15px; }
+	.m-left-15		{ margin-left:15px; }
+	.m-right-15		{ margin-right:15px; }
+	.m-top-10		{ margin-top:10px; }
+	.m-bottom-10	{ margin-bottom:10px; }
+	.m-left-10		{ margin-left:10px; }
+	.m-right-10		{ margin-right:10px; }
+	.m-top-5		{ margin-top:5px; }
+	.m-bottom-5		{ margin-bottom:5px; }
+	.m-left-5		{ margin-left:5px; }
+	.m-right-5		{ margin-right:5px; }

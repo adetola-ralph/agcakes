@@ -1,0 +1,100 @@
+/*------------------------------------------------------------------*/ 
+/*	3) Note: Design for a width of 320 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 479px){
+
+/*------------------------------------------------------------------*/ 
+/*	1) Header
+/*------------------------------------------------------------------*/
+.logo{margin-left:0;}
+.wrapper{
+	width:300px;
+	margin:0 auto;
+	float:none;
+}
+.main{	width:280px; float:left; margin:10px auto;}
+.post-wrapper{ width:280px; margin-left:0; }
+#footer{position:relative; display:block; float:left; padding:5px 0 10px 0; height:auto;}
+
+
+/*------------------------------------------------------------------*/ 
+/*	2) Nav
+/*------------------------------------------------------------------*/
+ul.sf-menu { display:none; }
+.menu-toggle{
+	display:block;
+	width:42px;
+	height:42px;
+}
+/*------------------------------------------------------------------*/ 
+/*	3) Content
+/*------------------------------------------------------------------*/
+.post-type-wrapper img{
+	width:270px;
+}
+.commment-text-wrap{
+	width:190px;
+}
+ul.children li div.commment-text-wrap{
+	width:190px;
+}
+ul.children li li div.commment-text-wrap{
+	width:190px;
+}
+ul.children li li li div.commment-text-wrap{
+	width:190px;
+}
+ul.children{
+	margin-left:0;
+	border:0;
+	margin-left:-19px;
+}
+ul.children li{
+	background:none;
+}
+.input input{
+	width:268px;
+}
+.form textarea{
+	width:268px;
+}
+.gallery-list li{
+	margin:0 0 30px 50px;
+}
+.member{
+	margin-right:30px;
+	margin-left:30px;
+}
+.pricing ul{
+	width:280px;
+}
+.project-list li{
+	margin-left:25px;
+}
+.project2-list li{
+	margin:0 0 30px;
+	width:280px;
+	height:290px;
+}
+.project2-list li img{
+	width:276px;
+	height:204px;
+}
+.project2-list li a div {
+	width:276px;
+	height:204px;
+}
+div.errorpage h1{
+	font-size:60px;
+}
+/*------------------------------------------------------------------*/ 
+/*	3) Sidebar
+/*------------------------------------------------------------------*/
+.search input{
+	padding:10px;
+	border:1px solid #555;
+	background:none;
+	color:#c5c5c5;
+	width:258px;
+}
+}

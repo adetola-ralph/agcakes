@@ -1,0 +1,74 @@
+/*------------------------------------------------------------------*/ 
+/*	2) Note: Design for a width of 480 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/*------------------------------------------------------------------*/ 
+/*	1) Header
+/*------------------------------------------------------------------*/
+.logo{margin-left:0;}
+.wrapper{
+	width:420px;
+	margin:0 auto;
+	float:none;
+}
+.main{	width:400px; float:left; margin:10px auto;}
+.post-wrapper{ width:400px; margin-left:0; }
+#footer{position:relative; display:block; float:left; padding:5px 0 10px 0; height:auto;}
+
+/*------------------------------------------------------------------*/ 
+/*	2) Nav
+/*------------------------------------------------------------------*/
+ul.sf-menu { display:none; }
+.menu-toggle{
+	display:block;
+	width:42px;
+	height:42px;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) Content
+/*------------------------------------------------------------------*/
+.post-type-wrapper img{
+	width:390px;
+}
+.form textarea{
+	width:388px;
+}
+.commment-text-wrap{
+	width:310px;
+}
+ul.children li div.commment-text-wrap{
+	width:280px;
+}
+ul.children li li div.commment-text-wrap{
+	width:250px;
+}
+ul.children li li li div.commment-text-wrap{
+	width:220px;
+}
+.gallery-list li{
+	margin:0 10px 30px 10px;
+}
+.member{
+	margin-right:70px;
+	margin-left:80px;
+}
+.pricing ul{
+	width:400px;
+}
+.project-list li{
+	margin-left:85px;
+}
+.project2-list li{
+	margin-left:25px;
+}
+div.errorpage h1{
+	font-size:100px;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) Contact
+/*------------------------------------------------------------------*/
+
+}
